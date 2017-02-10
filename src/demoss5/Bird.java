@@ -15,6 +15,10 @@ public class Bird extends Animal implements CoTheBay, CoTheChay{
     public void fly() {
         System.out.println("Mình thích thì mình fly.");
     }       
+    
+    public void chuaBietDungHaySai(){
+        System.out.println("Function nay can duoc kiem tra truoc khi merge.");
+    }
 
     @Override
     public void speak() {
