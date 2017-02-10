@@ -14,11 +14,7 @@ public class Bird extends Animal implements CoTheBay, CoTheChay{
     @Override
     public void fly() {
         System.out.println("Mình thích thì mình fly.");
-    }
-    
-    public void fly(int speed){
-        System.out.println("Mình thích thì mình fly." + speed);
-    }
+    }       
 
     @Override
     public void speak() {
